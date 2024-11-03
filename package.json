@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "sst bind next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -11,12 +11,16 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.16"
+    "next": "14.2.16",
+    "@opennextjs/aws": "3.2.0"
   },
   "devDependencies": {
     "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18"
+    "@types/react-dom": "^18",
+    "sst": "^2",
+    "aws-cdk-lib": "2.161.1",
+    "constructs": "10.3.0"
   }
 }
